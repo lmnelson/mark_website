@@ -1,0 +1,25 @@
+people:
+  - name: Ryan Wilson
+    role: Chief Executive Officer
+    image: ryan-wilson-headshot@2x
+    bio: "Ryan is a BCom from the Sauder School of Business with a specialization in the Management of Information Systems and is a Certified Information Systems Auditor. He has 15 years of experience in delivering technology solutions including critical systems, web applications and infrastructure. Ryan's past experience includes Co-Founding Kubera Payments Corporation, a provider of payment processing services to companies in North America and the Director of Technology for VersaPay (TSX VPY.V) where he designed and built Canada’s first real time electronic bill presentment and payment network."
+  - name: Chris Browes
+    role: Senior Vice President
+    bio: "Co-founder of Kubera Payments Corp, Chris developed the VersaPay eCommerce Department and oversaw VersaPay’s Toronto and Vancouver sales floors from December 2008 to January 2011. Chris was a principal engine of growth to VersaPay becoming the fastest growing company in Canada in 2009. He has 13 years of business development and financial service experience and is an expert in client relationship management."
+    image: chris
+  - name: Richard Hewitt
+    role: VP Operations
+    image: richard-hewitt-headshot@2x
+    bio: "Richard has an MSc in Industrial Engineering, which has given him a solid foundation in operations management and applied business mathematics. He brings a process-oriented approach to Medeo. His professional experience is varied with work in educational multimedia at SAP and UBC, production engineering at a medium-sized manufacturer, and IT consulting at Accenture."
+  - name: Davide Zilioli
+    role: VP Infrastructure
+    image: davide
+    bio: After obtaining his MSc in Computer Engineering, Davide was co-founder and CTO of the leading provider of e-commerce solutions for the retail grocery industry. It was recognized by Canadian Business Magazine as one of the hottest software companies in Canada and by Profit Magazine as one of Canada’s fastest growing companies. He has architected and deployed secure internet infrastructure since the advent of e-commerce in the mid 90s and brings 18 years experience developing web and mobile applications.
+  - name: Marc Faktor
+    role: VP Physician Services
+    image: marc-faktor-headshot@2x
+    bio: Marc has a specialized HBSc in Kinesiology and Health Sci. from York University and has an MSc. from the University of British Columbia with a specialization in health promotion, health knowledge, & health literacy. He brings over a decade of experience in preventative health and interdisciplinary medicine to Medeo. He has been a driving force behind BC’s primary tele-health physical activity counselling service and works with the Ministry of Health’s Healthy Families BC team to help British Columbians adopt healthy lifestyle behaviors. Marc also owns and operates a Vancouver-based health consulting firm, MDF Wellness Inc., and has helped clients like the BC Cancer Society, BC Center for Disease Control, The Provincial Health Services Authority, The Victorian Order of Nurses and the City of Richmond sit less and move more.
+  - name: Kay Holt
+    role: Director of Physician Engagement
+    image: kay-holt-headshot@2x
+    bio: Kay Holt, RN, Nurse Practitioner, MA, MSc Has 25 years of experience in Health Care delivery in the UK National Health Service. She worked as a Nurse Practitioner within a multidisciplinary team in a busy urban practice, managing the team of nurses and using Electronic Medical Records since 1990. Health Research, teaching and Clinical Governance were all incorporated into her Nursing Leadership Role. Since emigrating from the UK in 2007 Kay’s first job in BC was with Vancouver Island Health Authority, as a coordinator with the Practice Support Program (PSP), forging links with stakeholders such as the GPSC, BCMA, PITO, Integrated Health Networks and MOA Groups. Since 2008 she has been involved in Quality Improvement at Gabriola Medical Clinic. Her role there includes organization and delivery of care to patients with Chronic Diseases and complex conditions.She also works in an advisory capacity to other Medical Clinics and with PITO on the Clinical Usability Standards Project.

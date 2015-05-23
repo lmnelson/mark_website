@@ -1,0 +1,19 @@
+// Footer tablet
+//------------------------------------------
+
+@media (min-width: $screen-sm-min) {
+
+  section footer .footer-logo {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  p.copyright {
+    font-size: 11px;
+  }
+
+  section.section-footer {
+    padding: 40px 0;
+  }
+
+} // End media query

@@ -1,0 +1,59 @@
+// Responsive container
+//------------------------------------------
+
+//Set grid size (12 matches Bootstrap)
+$grid-size: 	12;
+
+.container-res {
+	width: 100%;
+	overflow: auto;
+	clear: both;
+
+	//Create responsive columns 1 through grid-size
+	@for $i from 1 through $grid-size {
+		.col-res-#{$i} {
+			min-height: 1px;
+			position: relative;
+			width: 100%;
+			display: block;
+			float: left;
+		}
+	}
+}
+
+.row-res:before, .row-res:after {
+	content: " ";
+	display: table;
+}
+.row-res:after {
+	clear: both;
+}
+
+.container-res:before, .container-res:after {
+	content: " ";
+	display: table;
+}
+
+.container-res:after {
+	clear: both;
+}
+
+//Responsive Sections
+.container-res {
+	.container-res-inner {
+		padding: 50px 15px;
+		margin: 0 auto;
+	}
+}
+
+//Content backgrounds
+.bg-mid {
+	background: $brand;
+	position: relative;
+	h2, h4 {
+		color: #fff;
+	}
+	h2 {
+		margin-bottom: 40px;
+	}
+}

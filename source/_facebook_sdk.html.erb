@@ -1,0 +1,24 @@
+<!-- Facebook scripts-->
+<div id='fb-root'></div>
+<script src='//connect.facebook.net/en_US/all.js'></script>
+
+<script>
+  FB.init({appId: "514567065270063", status: true, cookie: true});
+
+  function postToFeed() {
+
+    var obj = {
+      method: 'feed',
+      link: 'https://medeo.ca',
+      picture: 'https://medeo.ca/img/Metalogo.png',
+      name: 'See your doctor online',
+      description: 'Medeo is a platform that connects doctors to patients via secure video conference on computer, iPhone or iPad. Medeo allows BC residents with valid medical services coverage to complete an online, provincially insured visit with a licenced BC doctor - all from the comfort of their own home or office.'
+    };
+
+    function postCallback(response) {
+      document.getElementById('resPost').innerHTML = "Response: " + JSON.stringify(response);
+    }
+
+    FB.ui(obj, postCallback);
+  }
+</script> 

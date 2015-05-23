@@ -1,0 +1,9 @@
+people:
+  - name: Dean Drysdale
+    role: Chairman
+    image: dean-drysdale-headshot@2x
+    bio: "Dean Drysdale (Chairman of the Board) has over 20 years experience starting, growing and selling businesses. His two most successful ventures include: Carmanah Technologies Inc, a pioneer in the field of solar powered LED lighting where he served as CFO and sat on the board of directors, and Checkwell Solutions Corporation, best known for it's BackCheck brand, where he served as Chairman of the Board and CFO. Dean has an MBA from INSEAD, in Paris France and a PhD in Organizational Development from Cass Business School in London, England. He is also a CGA."
+  - name: Andrew Wilkinson
+    role: Advisor
+    bio: "Andrew is the founder of MetaLab Design, one of the top interface design agencies in the world whose clients include Apple, Walmart, Google, Disney and TED. Andrew has six years of experience building web and mobile applications that are used by millions of people."
+    image: andrew

@@ -1,0 +1,37 @@
+people:
+  - name: Loki Meyburg
+    position: Product Manager
+    image: loki
+  - name: Joshua Weinstein
+    position: Research
+    image: joshua
+  - name: Sarah Lilley
+    position: HR & Accounting
+    image: sarah
+  - name: Manu Bains
+    position: HR & Lead Medeo Coordinator
+    image: manu-bains-headshot@2x
+  - name: Paula Burrows
+    position: Operations
+    image: paula-burrows-headshot@2x
+  - name: Lee Nelson
+    position: Designer
+    image: lee-nelson-headshot@2x
+  - name: Isobella Goldin
+    position: Medeo Coordinator
+    image: isobella-goldin-headshot@2x
+  - name: Tobias Noiges
+    position: Software Engineer
+    image: tobias-noiges-headshot@2x
+  - name: James Basnett
+    position: VP Marketing
+    image: team-tn_thumb
+  - name: James Scicluna
+    position: Software Engineer
+    image: team-tn_thumb
+  - name: Chris Edwards
+    position: Project Manager
+    image: team-tn_thumb
+  - name: Joshua Collins
+    position: Software Engineer
+    image: team-tn_thumb

@@ -1,0 +1,41 @@
+//Social icons
+//------------------------------------------
+
+.social-icons {
+	overflow: auto;
+	li {
+		display: inline-block;
+		margin-right: 5px;
+	}
+	i {
+		background-color: $text-light;
+		@include transition(all ease-in-out 0.1s);
+		border-radius: 42px;
+		display: block;
+		color: #fff;
+		width: 23px;
+		text-align: center;
+		padding: 5px 0;
+		font-size: 13px;
+	}
+}
+i.icon-facebook {
+	&:hover {
+		background-color: $facebook;
+	}
+}
+i.icon-twitter {
+	&:hover {
+		background-color: $twitter;
+	}
+}
+i.icon-youtube-play{
+	&:hover {
+		background-color: $youtube;
+	}
+}
+i.icon-mail2{
+	&:hover {
+		background-color: $mail;
+	}
+}

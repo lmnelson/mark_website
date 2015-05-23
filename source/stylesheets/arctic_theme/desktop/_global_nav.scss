@@ -1,0 +1,53 @@
+// Desktop global nav
+//------------------------------------------
+
+@media (min-width: $screen-sm-min) {
+  .nav > li > a:hover {
+    background: none;
+  }
+  #menu-toggle {
+    padding: 40px 15px 24px 8px;
+    i {
+      font-size: 14px;
+    }
+  }
+  .masthead-nav {
+    &.navbar {
+      margin-bottom: 0;
+    }
+    .navbar-brand {
+      padding: 30px 15px 20px;
+    }
+    .nav {
+      float: left;
+    }
+    .navbar-nav {
+      float: right;
+      li {
+        padding: 0;
+      }
+      i {
+        //create nudge mixin
+        position: relative;
+        top: 1px;
+        margin-left: 0;
+      }
+      li a {
+        font-weight: $weight-semibold;
+        padding: 40px 8px 24px;
+        font-size: 14px;
+        color: $brand;
+        text-transform: uppercase;
+        @include transition(all 0.2s ease);
+        &:hover {
+          opacity: 1;
+          color: $brand;
+        }
+      }
+    }
+    .nav > li {
+      float: left;
+    }
+  }
+}//Close media query
+

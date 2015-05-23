@@ -1,0 +1,12 @@
+// Footer desktop
+//------------------------------------------
+
+@media (min-width: $screen-md-min) {
+  section footer .footer-logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  section.section-footer {
+    padding: 60px 0 100px;
+  }
+}

@@ -1,0 +1,14 @@
+// Tablet masthead sections
+//------------------------------------------
+
+@media (min-width: $screen-sm-min) {
+
+  #masthead-index .masthead-title {
+    padding: 110px 0;
+  }
+
+  #masthead-index {
+    background-position: 40% 0;
+  }
+
+}//Close media query

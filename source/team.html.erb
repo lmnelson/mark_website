@@ -1,0 +1,72 @@
+<%= partial 'about_masthead' %>
+<%= partial 'about_nav' %>
+
+<nav class="nav-wrap visible-xs">
+  <div class="content-nav">
+    <div class="container">
+      <div class="row">
+        <nav>
+          <div class="nav-controls">
+            <a href="about.html" class="prev pull-left"><i class="icon-arrow-left"></i></a>
+            <div class="current-page text-center">Team</div>
+            <a href="advisors.html" class="next pull-right"><i class="icon-arrow-right"></i></a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section class="leadership">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<section class="section-sm section-flush-top">
+					<h2 class="text-center">The Leadership</h2>
+				</section>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1">
+				<% data.leadership.people.each do |f| %>
+					<section class="section-xs">
+						<div class="row">
+							<div class="col-sm-3">
+								<div class="portrait"><%= image_tag "team/#{f.image}.jpg", :title => "#{f.name} - #{f.role}" %></div>
+							</div>
+							<div class="col-sm-9">
+								<h5><%= f.name %></h5>
+								<div class="role"><%= f.role %></div>
+								<p class="bio"><%= f.bio %></p>
+							</div>
+						</div>
+					</section>
+				<% end %>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<hr>
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1">
+				<section class="section-sm section-flush-top">
+					<h2 class="text-center">Our team</h2>
+				</section>
+
+				<div class="team-portraits clearfix">
+					<% data.team.people.each do |f| %>
+						<div class="portrait"><%= image_tag "team/#{f.image}.jpg", :title => "#{f.name} #{f.position}", :class=>"tip-tip" %></div>
+					<% end %>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<hr>

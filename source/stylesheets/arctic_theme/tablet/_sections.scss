@@ -1,0 +1,123 @@
+// Tablet sections
+//------------------------------------------
+
+@media (min-width: $screen-sm-min) {
+
+  section.section-flush-tablet {
+    padding: 0;
+  }
+
+  section.section-flush-top-tablet {
+    padding-top: 0;
+  }
+
+  section.section-flush-bottom-tablet {
+    padding-bottom: 0;
+  }
+
+  span.step {
+    margin-top: 0;
+  }
+
+  // Index
+  .section-intro {
+    p {
+      margin-top: 35px;
+    }
+    a {
+      margin-top: 10px;
+    }
+  }
+
+  .section-devices {
+    .nexus5-lg {
+      right: 220px;
+    }
+  }
+
+  .popular-uses {
+    p {
+      padding: 0;
+    }
+  }
+
+  .see-a-doctor {
+    span {
+      padding-left: 15px;
+      display: block;
+    }
+    background: url('/images/see-your-doctor.jpg');
+    height: auto;
+    background-position: -350px 0;
+    background-size: cover;
+  }
+
+  .index .section-security {
+    h4 {
+      margin-top: 25px;
+    }
+    .video-container {
+      margin-top: 30px;
+    }
+  }
+
+  .section-getting-started {
+    h2 {
+      margin-top: 0;
+      margin-bottom: 40px;
+    }
+    img {
+      margin-bottom: 30px;
+    }
+  }
+
+  #section-testimonials .testimonial-img {
+    height: 469px;
+  }
+
+  .section-free-account {
+    a:last-of-type {
+      margin-top: 0;
+      margin-left: 5px;
+    }
+  }
+
+  // Tour section
+
+  .referrals-attachments h2 {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  .referrals-attachments .referral-attachment {
+    margin-bottom: 0;
+  }
+
+  .referrals {
+    @include mastheadSection(referrals-masthead, $brand, 0.9);
+    background-position: top right;
+  }
+  .referral-attachments .referral-attachment {
+    margin-bottom: 0;
+  }
+
+  .security .section-security {
+    .video-container {
+      margin-bottom: 0;
+    }
+    h2 {
+      margin-bottom: 40px;
+    }
+    p {
+      margin-top: 10px;
+    }
+  }
+
+  // Team
+  .leadership {
+    h5 {
+      margin-top: 0;
+    }
+  }
+
+} //close media query

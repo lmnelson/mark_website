@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <%= partial 'html_shims' %>
+  <head>
+    <%= partial 'head' %>
+  </head>
+  <body class="<%= page_classes %>">
+    <%= partial 'chromeframe_alert' %>
+		<div id="wrapper">
+		  <div class="content">
+        <%= partial 'global_nav' %>
+        <%= partial 'global_nav_mobile' %>
+	    	<%= yield %>
+        <%= partial 'footer_desktop' %>
+				<%= partial 'footer' %>
+	  	</div><!--/content-->
+	  	<%= partial 'global_sidebar_nav' %>
+		</div><!--/wrapper -->
+  </body>
+  <!-- Faster loading JS -->
+  <%= javascript_include_tag  "all" %>
+  <%= javascript_include_tag "https://secure.medeo.ca/assets/marketing_tracking.js" %>
+  <%= javascript_include_tag "https://cdn.sublimevideo.net/js/yv150c55.js" %>
+</html>

@@ -1,0 +1,39 @@
+//Footer
+//------------------------------------------
+
+//TODO: Refactor this ish. Messy.
+
+section.section-footer {
+	padding: 60px 0 100px;
+}
+section footer {
+	.copyright {
+		strong {
+			color: $text-light;
+			font-size: 13px;
+		}
+	}
+	.footer-logo {
+		margin-bottom: 20px;
+	}
+	ul {
+		margin-bottom: 20px;
+		li {
+			padding: 0;
+		}
+	}
+	a, p, li {
+		color: #aaa;
+		font-size: 14px;
+	}
+	a:hover {
+		color: $brand;
+	}
+}
+
+//social icons
+footer {
+	.social-icons {
+		margin-top: 30px;
+	}
+}

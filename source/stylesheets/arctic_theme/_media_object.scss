@@ -1,0 +1,23 @@
+//Media object
+//------------------------------------------
+
+
+//TODO: Currently acts as a media object. Make dif sizes
+.testimonial-person {
+	margin: 30px 15px;
+	overflow: auto;
+	img {
+		margin-right:25px;
+		float: left;
+		display: block;
+	}
+	div { color: #fff; }
+	.name {
+		font-size: 15px;
+		font-weight: $weight-semibold;
+		margin-top: 10px;
+	}
+	.location {
+
+	}
+}

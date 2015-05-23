@@ -1,0 +1,57 @@
+//Variables
+//------------------------------------------
+
+//Medeo Colours
+$brand:               			#009fdc;
+$primary-dark:        			#00394F;
+$primary-light:       			#F0F1F2;
+$primary-lightest:    			#fff;
+$primary-highlight:   			#00c2c5;
+
+//States
+$color-danger: 							#c50046;
+
+//Borders, dividers, hr
+$border-light: 							#eee;
+
+//Sections
+$section-light: 						#fafafa;
+$section-light-border:  		#e9ecee;
+$section-mid: 							$brand;
+
+$section-lightest: 					#fff;
+$section-lightest-border:  	$section-light-border;
+
+//Typography
+$color-heading: 						#5e5f5f;
+$color-subheading: 					#a6a6a6;
+$color-text: 								#7c7c7c;
+$text-light: 								#cbcbcb;
+
+$weight-light: 							200;
+$weight-regular: 						400;
+$weight-medium: 						500;
+$weight-semibold: 					600;
+$weight-bold: 							700;
+
+//Social media
+$facebook: 									#0069AF;
+$twitter: 									#19B6DD;
+$youtube: 									#DA0161;
+$mail:                      $primary-highlight;
+
+//Lists
+$list-stripe: 							#fafafa;
+$color-list: 								#a6a6a6;
+
+//Fonts
+$solomon-reg: 							"solomon_sans_normalregular";
+// $solomon-reg-it:
+$solomon-semibold: 					"solomon_sans_semiboldregular";
+// $solomon-semibold-it:
+$solomon-light: 						"solomon_sans_lightregular";
+// $solomon-light-it:
+$solomon-book-reg: 					"solomon_sans_bookregular";
+// $solomon-book-it:
+$solomon-bold: 							"solomon_sans_boldbold";
+// $solomon-bold-it:

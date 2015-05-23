@@ -1,0 +1,49 @@
+/* line 1, /Users/leenelson/code/medeohealth_com/source/css/ie-lt-9.css.scss */
+.icon-checkmark-circle {
+  display: none; }
+
+/* line 5, /Users/leenelson/code/medeohealth_com/source/css/ie-lt-9.css.scss */
+.section .benefits-step.active {
+  border: 1px solid transparent;
+  background: #fff; }
+  /* line 8, /Users/leenelson/code/medeohealth_com/source/css/ie-lt-9.css.scss */
+  .section .benefits-step.active h4,
+  .section .benefits-step.active i.icon-progress-number {
+    color: #445975; }
+  /* line 12, /Users/leenelson/code/medeohealth_com/source/css/ie-lt-9.css.scss */
+  .section .benefits-step.active p {
+    color: #222; }
+
+/* line 17, /Users/leenelson/code/medeohealth_com/source/css/ie-lt-9.css.scss */
+.steps .benefits-step {
+  opacity: 1;
+  width: auto; }
+  /* line 20, /Users/leenelson/code/medeohealth_com/source/css/ie-lt-9.css.scss */
+  .steps .benefits-step:hover {
+    cursor: default;
+    background: #fff; }
+  /* line 25, /Users/leenelson/code/medeohealth_com/source/css/ie-lt-9.css.scss */
+  .steps .benefits-step.completed i.icon-progress-number {
+    display: block; }
+
+/* line 32, /Users/leenelson/code/medeohealth_com/source/css/ie-lt-9.css.scss */
+.ipad-wrap img#step-2 {
+  z-index: 100;
+  position: relative; }
+/* line 36, /Users/leenelson/code/medeohealth_com/source/css/ie-lt-9.css.scss */
+.ipad-wrap nav.step-indicators {
+  display: none; }
+/* line 39, /Users/leenelson/code/medeohealth_com/source/css/ie-lt-9.css.scss */
+.ipad-wrap .ipad {
+  background: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='/img/ipad-9917a15d.png', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(\a     src='/img/ipad-9917a15d.png',\a     sizingMethod='scale')"; }
+
+/* line 53, /Users/leenelson/code/medeohealth_com/source/css/ie-lt-9.css.scss */
+ul.checkmarks li {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='/img/checkmark-e53ae374.png', sizingMethod='image');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(\a     src='/img/checkmark-e53ae374.png',\a     sizingMethod='image')"; }
+/* line 62, /Users/leenelson/code/medeohealth_com/source/css/ie-lt-9.css.scss */
+ul.checkmarks li:nth-child(2n -1) {
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='/img/checkmark-e53ae374.png', sizingMethod='image');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(\a     src='/img/checkmark-e53ae374.png',\a     sizingMethod='image')"; }

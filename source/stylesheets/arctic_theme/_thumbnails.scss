@@ -1,0 +1,42 @@
+//Thumbnails
+//------------------------------------------
+
+.video-thumbnail-lrg {
+	padding: 10px;
+	border: 1px solid $border-light;
+	border-radius: 5px;
+	position: relative;
+	i {
+		position: absolute;
+		top: 50%;
+		margin-top: -27px;
+		left: 50%;
+		font-size: 50px;
+		color: #fff;
+		z-index: 1;
+		margin-left: -15px;
+	}
+	&:after {
+		content: '';
+		background: #000;
+		position: absolute;
+		z-index: 2;
+		opacity: .2;
+		display: block;
+		height:auto;
+		bottom:0;
+		top:0;
+		left:0;
+		right:0;
+		padding: 10px;
+		background-clip: content-box;
+
+		@include transition(all ease-in-out 0.2s);
+	}
+	&:hover:after {
+		opacity: 0;
+
+	}
+}
+
+

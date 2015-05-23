@@ -1,0 +1,181 @@
+//Masthead sections
+//------------------------------------------
+
+//Mixins
+@mixin mastheadSection($image, $afterColor, $afterOpacity) {
+	background-image: url('/images/#{$image}.jpg');
+	&:before {
+		background-color: $afterColor;
+		opacity: $afterOpacity;
+	}
+}
+
+@mixin rotateHue() {
+	@include animation-name(hueAnimation);
+	@include animation-duration(10s);
+	@include animation-timing-function(linear);
+	@include animation-iteration-count(infinite);
+}
+
+//Animations
+@include keyframes(hueAnimation) {
+  0% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  50% {
+    -webkit-filter: hue-rotate(-10deg);
+  }
+  51% {
+  	-webkit-filter: hue-rotate(-10deg);
+  }
+	100% {
+		-webkit-filter: hue-rotate(0deg);
+	}
+}
+
+//Shared properties of masthead sections
+section.masthead {
+	&:before {
+		content: '';
+		width: 100%;
+		position: absolute;
+		z-index: 1;
+		transform: translateZ(0);
+		height: 100%;
+	}
+}
+
+#masthead-index {
+	// @include mastheadSection(index-masthead, $brand, .8);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: #008BC2;
+	opacity: .8;
+}
+
+.video-container {
+	position: absolute;
+	height: 600px;
+	overflow: hidden;
+	width: 100%;
+}
+
+#masthead-video {
+	width: 100%;
+}
+
+#masthead-index-reverse {
+	@include mastheadSection(index-masthead-reverse, $brand, .8);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-color: $brand;
+}
+
+.masthead-tour {
+	@include mastheadSection(tour-masthead, $brand, 0.8);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #000;
+}
+
+.masthead-doctors {
+	@include mastheadSection(doctor-masthead, $brand, 0.8);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: #000;
+}
+
+.masthead-about {
+	@include mastheadSection(about-masthead, $brand, 0.8);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #000;
+}
+
+.masthead-press {
+	@include mastheadSection(press-masthead, $brand, 0.8);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: #000;
+}
+
+.masthead-contact {
+	@include mastheadSection(contact-masthead, $brand, 0.8);
+}
+
+//Masthead titles
+//------------------------------------------
+.masthead-title {
+	position: relative;
+	padding: 50px 15px;
+	z-index: 200;
+	text-align: center;
+	text-shadow: 0px 0px 20px #228AB3;
+	color: #fff;
+	h4 {
+		font-size: 18px;
+		color: #fff;
+	}
+	h1 {
+		color: #fff;
+		font-size: 52px;
+		font-weight: $weight-bold;
+		text-transform: uppercase;
+		margin-bottom: 0;
+	}
+}
+
+#masthead-index .masthead-title,
+#masthead-index-reverse .masthead-title,
+#masthead-index-mobile .masthead-title {
+	top: 0;
+	text-align: left;
+	padding: 125px 0;
+	text-shadow: none;
+	h1 {
+		font-size: 45px;
+		margin-bottom: 20px;
+	}
+	h4 {
+		color: rgba(255,255,255,0.8);
+		font-size: 18px;
+	}
+	a.btn {
+		margin: 10px 0 25px;
+	}
+	span {
+		padding: 10px 0;
+		display: block;
+		font-size: 14px;
+		color: rgba(255,255,255,0.8);
+		font-weight: $weight-semibold;
+	}
+	i {
+		color: rgba(255,255,255,0.8);
+		margin-right: 5px;
+	}
+	hr {
+		border-top: 1px solid rgba(0,0,0,1);
+		border-bottom: 1px solid #fff;
+		opacity: 0.1;
+	}
+}
+
+#masthead-index-reverse .masthead-title {
+	padding: 65px 0;
+}
+
+#masthead-index-mobile {
+	.masthead-title {
+		padding: 20px 15px;
+	}
+	.video-container {
+		margin-top: 25px;
+	}
+}
+
+
+
+
+
+

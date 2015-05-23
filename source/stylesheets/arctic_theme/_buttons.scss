@@ -1,0 +1,104 @@
+//Buttons
+//------------------------------------------
+
+.btn {
+	border-radius: 2px;
+
+	&:hover {
+
+	}
+}
+
+p + .btn {
+	margin-top: 25px;
+}
+
+//Sizes
+.btn-large {
+	font-size: 12px;
+	font-weight: $weight-semibold;
+	padding: 13px 40px;
+	text-transform: uppercase;
+}
+
+.btn-small {
+	padding: 6px 12px;
+}
+
+
+//Primary
+.btn-primary {
+	@include linear-gradient($primary-highlight, darken($primary-highlight, 5%));
+	border: 1px solid darken($primary-highlight, 12%);
+	box-shadow: inset 0 1px 0 lighten($primary-highlight, 2%);
+	&:hover {
+		border: 1px solid darken($primary-highlight, 8%);
+		box-shadow: inset 0 1px 0 lighten($primary-highlight, 5%);
+		@include linear-gradient(lighten($primary-highlight,3%), $primary-highlight);
+	}
+}
+
+.btn-secondary {
+	@include linear-gradient($brand, darken($brand, 5%));
+	border: 1px solid darken($brand, 12%);
+	box-shadow: inset 0 1px 0 lighten($brand, 2%);
+	color: #fff;
+	&:hover {
+		border: 1px solid darken($brand, 8%);
+		box-shadow: inset 0 1px 0 lighten($brand, 5%);
+		@include linear-gradient(lighten($brand,3%), $brand);
+		color: #fff;
+	}
+}
+
+.btn-large.btn-primary {
+
+	&:hover {
+
+	}
+}
+
+//Default
+.btn-default {
+	color: $brand;
+	border: 1px solid $brand;
+	background: none;
+	&:hover {
+		color: darken($brand, 10%);
+		border-color: darken($brand, 10%);
+		background: none;
+	}
+}
+
+.btn-large.btn-default {
+
+}
+
+a.btn-default-inverse {
+	border: 1px solid #fff;
+	color: #fff;
+	&:hover {
+		color: #fff;
+	}
+}
+
+//Button link
+.btn-link {
+	color: $brand;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 20px;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+// Specific buttons
+//------------------------------------------
+
+//navbar button
+.nav.navbar-nav a.navbar-btn {
+	padding: 6px 14px;
+	margin: 19px 4px;
+}
+

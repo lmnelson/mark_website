@@ -1,0 +1,32 @@
+//Desktop masthead sections
+//------------------------------------------
+
+//Screen-md-min 992px
+@media (min-width: $screen-md-min) {
+
+  section.masthead {
+    height: 350px;
+    &:before {
+      height: 350px;
+    }
+  }
+
+  section#masthead-index {
+    height: 600px;
+    &:before {
+      height: 100%;
+    }
+  }
+
+  //Masthead titles
+  //------------------------------------------
+  .masthead-title {
+    position: relative;
+    top: 140px;
+    padding: 0;
+    h1 {
+      font-size: 60px;
+    }
+  }
+
+}//Close media query

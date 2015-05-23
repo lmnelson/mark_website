@@ -1,0 +1,113 @@
+//Forms
+//------------------------------------------
+
+.form-group {
+	width: 48%;
+	margin: 2% 1%;
+	input {
+		@include box-sizing(border-box);
+		padding: 15px;
+		height: auto;
+	}
+}
+
+
+//Copied from old site.
+//Refactor
+.wufoo,
+.doc-form {
+  margin-top: 20px;
+}
+
+form {
+  input {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  select {
+    color: $color-text;
+  }
+  .control-group {
+    overflow: auto;
+    &.centered {
+      text-align: center;
+    }
+    &.full-width {
+      margin-bottom: 15px;
+      input[type="text"], input[type="email"], input[type="tel"], textarea {
+        -webkit-appearance: none;
+        width: 100%;
+        padding: 18px 15px;
+        background: none;
+        font-size: 1.125em;
+        border-radius: 2px;
+        border: 1px solid darken(#E9ECEE, 10%);
+        &:focus {
+          border-color: $brand;
+          outline: none;
+        }
+        &:first-child {
+          float: left;
+        }
+        &:last-child {
+          float: right;
+        }
+      }
+    }
+    &.half {
+      margin-bottom: 0;
+      input[type="text"], input[type="email"], input[type="tel"], .dummy-field, textarea, select {
+        margin-bottom: 15px;
+        -webkit-appearance: none;
+        width: 100%;
+        padding: 18px 15px;
+        background: none;
+        font-size: 1.125em;
+        border-radius: 2px;
+        border: 1px solid darken(#E9ECEE, 10%);
+        &:focus {
+          border-color: $brand;
+          outline: none;
+        }
+        &:first-child {
+          float: left;
+        }
+        &:last-child {
+          float: right;
+        }
+      }
+      .dummy-field {
+        border: none;
+        margin: 4px;
+        padding: 10px 0;
+        font-size: 0.875em;
+        color: #8b9cae;
+        label {
+          margin-right: 23px;
+          input {
+            margin-right: 8px;
+          }
+        }
+      }
+    }
+    button[type="submit"] {
+      padding: 11px 18px;
+      font-size: 1em;
+    }
+    #saveForm {
+      margin-top: 10px;
+    }
+  }
+}
+
+@media (min-width: $screen-md-min) {
+
+  form .control-group.half {
+    margin-bottom: 15px;
+    input[type="text"], input[type="email"], input[type="tel"], .dummy-field, textarea, select {
+      width: 49%;
+      margin-bottom: 0;
+    }
+  }
+}
+
+

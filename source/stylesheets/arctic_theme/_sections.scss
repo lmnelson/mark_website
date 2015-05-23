@@ -1,0 +1,367 @@
+// Sections
+//------------------------------------------
+
+//Desktop sections (More white space)
+section {
+	padding: 50px 0;
+	position: relative;
+}
+
+section.section-sm {
+	padding: 50px 0 50px;
+}
+
+section.section-xs {
+	padding: 25px 0 25px;
+}
+
+section.section-flush {
+	padding: 0;
+}
+
+section.section-flush-top {
+	padding-top: 0;
+}
+
+section.section-flush-bottom {
+	padding-bottom: 0;
+}
+
+
+
+//No borders
+section.section-no-border {
+	border-top: none;
+	border-bottom: none;
+}
+
+//Section colours
+.section-light {
+	background-color: $section-light;
+	border-top: 1px solid $section-light-border;
+	border-bottom: 1px solid $section-light-border;
+}
+
+.section-light + .section-light {
+	border-bottom: none;
+}
+
+.section-lightest {
+	background-color: $section-lightest;
+	border-top: 1px solid $section-lightest-border;
+	border-bottom: 1px solid $section-lightest-border;
+}
+
+section.section-mid {
+	background-color: $section-mid;
+	h2 {
+		color: #fff;
+	}
+	color: rgba(255, 255, 255, 0.8);
+}
+
+
+//Medeo Specific
+//------------------------------------------
+
+//Index
+section.section-intro {
+	.video-container {
+		margin-top: 35px;
+	}
+}
+
+section.section-devices {
+
+	.devices {
+		position: relative;
+		margin-bottom: 40px;
+	}
+	.ipad-lg {
+		width: 250px;
+		margin: 0 auto;
+	}
+	.nexus5-lg {
+		width: 100px;
+		position: absolute;
+		bottom: -20px;
+	}
+	.app-store-icons {
+		margin-top: 30px;
+	}
+}
+
+section.see-a-doctor {
+	// background: $brand;
+	// color: #fff;
+	a {
+		margin-top: 40px;
+	}
+	// h2 {
+	// 	color: #fff;
+	// }
+	&:before {
+		content: '';
+		position: absolute;
+		// background-color: rgba(0, 159, 220, 0.8);
+		top: 0;
+		height: 100%;
+		width: 100%;
+	}
+}
+
+#section-hours-of-op {
+	.hours-of-op {
+		margin: 30px 0 30px;
+		.today .open,
+		.today .closed {
+			background: $primary-highlight;
+			width: 10px;
+			height: 10px;
+			margin: 0 auto;
+			position: relative;
+			top: 15px;
+			border-radius: 30px;
+		}
+		.today .closed {
+			background: $color-danger;
+			opacity: 0.5;
+		}
+		.day {
+			float:left;
+			width: percentage(1/7); //100% / 7 Days
+		}
+		.date {
+			font-size: 12px;
+			color: $text-light;
+			text-transform: uppercase;
+			@include box-shadow(1px 0 0 #eee);
+			text-align: center;
+			border-bottom: 1px solid #eee;
+		}
+		.day:last-of-type .date{
+			@include box-shadow(none);
+		}
+		.day:last-of-type .status{
+			@include box-shadow(none);
+		}
+		.status {
+			@include box-shadow(1px 0 0 #eee);
+			text-align: center;
+			height: 40px;
+		}
+	}
+}
+
+#section-testimonials {
+	.testimonial-content {
+		margin: 0 auto;
+	}
+	.testimonial-img {
+		background-image: url('/images/lucy-lrg-testimonial.jpg');
+		background-size: cover;
+		height: 300px;
+		position: relative;
+	}
+	.testimonial-person {
+	  margin-bottom: 0;
+	}
+}
+
+section:nth-of-type(11) {
+	border-top: none;
+}
+
+//Security
+@include keyframes(securityBackground) {
+  from {
+    background-position: 0 0;
+  }
+  to {
+     background-position: 0 100%;
+  }
+}
+
+.section-security {
+	.video-container {
+		margin-top: 0;
+		margin-bottom: 25px;
+	}
+	// background-color: $brand;
+	// background-image: url("/images/security-pat.png");
+	// background-position: 0 0;
+	// @include animation-name(securityBackground);
+	// @include animation-duration(30s);
+	// @include animation-timing-function(linear);
+	// @include animation-iteration-count(infinite);
+}
+
+//Follow ups sections
+section.follow-ups {
+	h2 {
+		margin-top: 30px;
+	}
+
+}
+
+section.gp-for-me {
+	h3 + p {
+		padding-right: 0;
+		margin: 20px 0 20px;
+	}
+	ul {
+		padding: 0;
+	}
+}
+
+//Security
+section.security-points {
+	h3 {
+		margin-bottom: 0;
+		margin-left: 35px;
+	}
+	p {
+		padding-left: 35px;
+	}
+	ul {
+		margin-bottom: 50px;
+	}
+}
+
+//Prescriptions
+.section-prescriptons-first {
+	h2 {
+		margin-top: 30px;
+	}
+}
+
+//Referrals
+.referrals {
+	border-top: none;
+}
+.referrals-attachments {
+	h2 {
+		margin-top: 15px;
+	}
+	.referral-attachment {
+		margin-top: -15px;
+		margin-bottom: 35px;
+	}
+}
+
+//Getting Started
+.section-getting-started {
+	h2 {
+		margin-top: 30px;
+	}
+	dt {
+		float: left;
+	}
+}
+
+span.step {
+	margin-top: 40px;
+	display: block;
+}
+
+//Free account
+.section-free-account {
+	a:last-of-type {
+		margin-top: 15px;
+	}
+}
+
+//Team
+.leadership {
+	h2 {
+		margin-bottom: 0;
+	}
+	h5 {
+		margin-bottom: 5px;
+		margin-top: 25px;
+	}
+}
+
+//Partners
+section.partners {
+	.partner {
+		width: 203px;
+		height: 158px;
+		border: 1px solid #e5e8ec;
+		margin: 15px;
+		float: left;
+		border-radius: 3px;
+		a {
+			@include transition(opacity .25s ease-in-out);
+			display: block;
+			&:hover {
+				opacity: 0.4;
+			}
+		}
+	}
+
+	@media (max-width: 480px) {
+		.partner {
+			width: 99%;
+			height: auto;
+			text-align: center;
+			margin: 10px 0;
+			overflow: hidden;
+			&:first-child {
+				margin-top: 0;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+			img {
+				max-width: 70%;
+				height: auto;
+			}
+		}
+	}
+}
+
+//Press Coverage
+section.press-coverage {
+	span {
+		display: block;
+		margin-right: 5px;
+	}
+}
+
+//Media contacts
+section.media-contacts {
+	ul:first-of-type {
+		margin: 30px 0;
+	}
+}
+
+//Media kit
+section.media-kit {
+	a {
+		float: right;
+	}
+}
+
+//Our location
+.section-our-location {
+  img {
+    margin-top: 20px;
+  }
+}
+
+//Terms of service
+.section-terms-of-service {
+	p,
+	strong {
+		color: $color-subheading;
+		font-size: 14px;
+	}
+}
+
+//Doctors
+.section-see-patients {
+	img {
+		margin-top: 15px;
+	}
+}

@@ -1,0 +1,266 @@
+//Desktop Sections
+//------------------------------------------
+
+@media (min-width: $screen-md-min) {
+  section {
+    padding: 100px 0 100px;
+    position: relative;
+  }
+
+  section.section-flush-desktop {
+    padding: 0;
+  }
+
+  section.section-flush-top-desktop {
+    padding-top: 0;
+  }
+
+  section.section-flush-bottom-desktop {
+    padding-bottom: 0;
+  }
+
+  // Medeo specific sections
+  //------------------------------------------
+
+  //Index
+  section.section-intro {
+    .video-container {
+      margin-top: 0;
+    }
+    p {
+      margin-top: 0;
+    }
+    p + a {
+      margin-top: 20px;
+    }
+    a {
+      display: block;
+    }
+    h2 {
+      margin-top: 30px;
+    }
+  }
+
+  //Devices
+  section.section-devices {
+    padding-bottom: 130px;
+    h2 {
+      margin-top: 50px;
+    }
+    .app-store-icons {
+      a + a {
+        display: inline-block;
+        margin-left: 7px;
+      }
+    }
+    .device {
+      position: absolute;
+      width: inherit;
+    }
+    .ipad-lg {
+      right: 80px;
+    }
+    .nexus5-lg {
+      right: 380px;
+      top: 190px;
+    }
+  }
+
+
+  //Popular uses
+  .popular-uses {
+    p {
+      padding: 0 25px;
+    }
+  }
+
+  //Popular Uses
+  section.popular-uses {
+    h2 {
+      margin-top: 25px;
+    }
+  }
+
+  .see-a-doctor {
+    padding: 70px 0 90px;
+    background-position: 0 0;
+    a.btn {
+      margin-top: 20px;
+    }
+    span {
+      padding-left: 0px;
+    }
+  }
+
+  //Security
+  .index section.section-security {
+    .video-container {
+      margin: 0;
+    }
+    h2 {
+      margin-top: 0;
+    }
+  }
+
+  //Getting Started
+  .section-getting-started {
+    h2 {
+      margin-top: 0;
+      margin-bottom: 25px;
+    }
+    img {
+      margin-bottom: 0;
+    }
+  }
+
+  span.step {
+    margin-top: 0px;
+    display: block;
+  }
+
+  //Hours or Operation
+  #section-hours-of-op {
+    .hours-of-op {
+      margin: 70px 0 30px;
+      .open_desktop {
+        color: $primary-highlight;
+        text-transform: uppercase;
+        padding: 9px 15px;
+        font-weight: 600;
+        position: relative;
+        top: 60px;
+        opacity: 0.7;
+      }
+      .closed_desktop {
+        @extend .open_desktop;
+        color: $color-danger;
+        opacity: 0.5;
+      }
+      .today .open_desktop {
+        border: 3px solid $primary-highlight;
+        border-radius: 5px;
+        width: 90px;
+        margin: 0 auto;
+      }
+      .day.today {
+        .date {
+          border-bottom: 12px solid $brand;
+        }
+      }
+      .date {
+        padding: 0 10px 10px 0;
+        font-size: 13px;
+        text-transform: uppercase;
+        text-align: right;
+        border-bottom: 12px solid #a2ccf4;
+      }
+      .status {
+        height: 155px;
+      }
+    }
+  }
+
+  //Testimonials
+  #section-testimonials {
+    .testimonial-content {
+      width: 325px;
+    }
+    .testimonial-img {
+      height: 565px;
+    }
+    .testimonial-person {
+      margin-bottom: 30px;
+    }
+  }
+
+  //Follow ups
+  section.follow-ups {
+    padding-top: 80px;
+  }
+  section.gp-for-me {
+    h3 + p {
+      padding-right: 30px;
+    }
+    ul {
+      padding: 0 15px;
+    }
+  }
+
+  //Referrals
+  .referrals {
+    background-position: right;
+  }
+
+  //Prescriptions
+  .section-prescriptons-first {
+    h2 {
+      margin-top: 80px;
+    }
+  }
+
+  //Security
+  .section-security {
+    h2 {
+      margin-top: 30px;
+    }
+    .video-container {
+      margin-top: 0;
+    }
+  }
+
+  section.security-points {
+    padding-bottom: 100px;
+    h3 {
+      margin-bottom: 25px;
+    }
+    h3 + p {
+      min-height: 60px;
+    }
+  }
+  //How to get started
+  .section-how-to-get-started {
+    h2 {
+      margin-bottom: 45px;
+    }
+  }
+
+  //Team
+  .leadership {
+    h2{
+      margin-bottom: 25px;
+    }
+  }
+
+  //Press Coverage
+  section.press-coverage {
+    span {
+      display: inline;
+    }
+  }
+
+  //Media contacts
+  section.media-contacts {
+    ul.list-condensed {
+      margin-top: 0;
+    }
+    ul:first-of-type {
+      padding-left: 40px;
+      border-left: 1px solid #eee;
+      float: left;
+      margin-right: 50px;
+      margin-left: 10px;
+    }
+  }
+
+  //Our location
+  .section-our-location {
+    img {
+      margin-top: 40px;
+    }
+  }
+
+}//Close media query
+
+
+
+

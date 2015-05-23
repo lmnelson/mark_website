@@ -1,0 +1,27 @@
+// Responsive container tablet
+//------------------------------------------
+
+@media (min-width: $screen-sm-min) {
+
+  .container-res {
+    //Create responsive columns 1 through grid-size
+    @for $i from 1 through $grid-size {
+      .col-res-#{$i} {
+        min-height: 1px;
+        position: relative;
+        width: $i / $grid-size * 100%;
+        float: left;
+      }
+    }
+  }
+
+  //Responsive Sections
+  .container-res {
+    .container-res-inner {
+      padding: 50px 30px;
+      margin: 0 auto;
+    }
+  }
+
+}//close media query
+

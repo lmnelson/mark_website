@@ -1,0 +1,59 @@
+<%= partial 'about_masthead' %>
+<%= partial 'about_nav' %>
+
+<nav class="nav-wrap visible-xs">
+  <div class="content-nav">
+    <div class="container">
+      <div class="row">
+        <nav>
+          <div class="nav-controls">
+            <a href="partners.html" class="prev pull-left"><i class="icon-arrow-left"></i></a>
+            <div class="current-page text-center">About</div>
+            <a href="team.html" class="next pull-right"><i class="icon-arrow-right"></i></a>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 col-sm-10 col-sm-offset-1 col-lg-offset-0">
+				<h2 class="text-center">The Medeo way</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 col-lg-offset-3 col-sm-10 col-sm-offset-1">
+				<section class="section-xs">
+					<div class="video-container">
+						<a href="#MedeoIntro" class="sublime watch-video-btn" data-uid="MedeoIntro" data-autoresize="fit" data-autoplay="true">
+							<div class="video-thumbnail-lrg">
+								<i class="icon-play-sign"></i>
+								<%= image_tag 'about-video-thumbnail.jpg' %>
+							</div>
+						</a>
+						<video id="MedeoIntro" poster="https://medeo.ca/img/video/splash.png" width="640" height="360" title="Introducing Medeo - See your doctor online" style="display:none" data-uid="MedeoIntro" data-autoresize="fit" preload="none" data-logo-enable='false'>
+						  <source src="https://medeo.ca/video/medeo-intro-hd.mp4" data-quality="hd" />
+						  <source src="https://medeo.ca/video/medeo-intro-sd.mp4" />
+						  <source src="https://medeo.ca/video/medeo-intro-sd.mp4" />
+						</video>
+					</div>
+				</section>
+				<section class="section-xs section-flush-bottom">
+					<h4>Medeo was created by a team of physicians and technologists who are committed to improving your access to healthcare.</h4>
+					<p>From Comox, to Courtney, to Vancouver, to Vanderhoof, to Canadians with disabilities or chronic illness, to our seniors, our mothers and ourselves, we see a future where Canadians can access healthcare anytime, anywhere. We set out to build an innovative system to make it more convenient to see your doctor.</p>
+					<p>Through our discussion with physicians and patients, we have discovered a need for improved access, and a strong desire to provide it.</p>
+					<ul class="list-bordered">
+						<li>We are inspired to change the lives of seniors, those who are dependent on public transportation, those with disabilities, people with chronic illnesses, those with restricted mobility, and parents everywhere.</li>
+						<li>We are inspired by specialists in urban centres eager to connect with their colleagues across the province.</li>
+						<li>We are inspired by doctors working with remote and rural communities who want to provide care to their patients without regard for Canada's harsh conditions.</li>
+						<li>We are excited to help so many people, and this is also a big responsibility. We want to hear from you as to how we can better meet your healthcare needs.</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+	</div>
+</section>
+<hr>

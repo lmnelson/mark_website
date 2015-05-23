@@ -1,0 +1,13 @@
+// Desktop Responsive container
+//------------------------------------------
+
+@media (min-width: $screen-md-min) {
+
+  //Responsive Sections
+  .container-res {
+    .container-res-inner {
+      padding: 80px 0 80px;
+    }
+  }
+
+}//close media query
